@@ -13,7 +13,7 @@ extern "C" {
  * Signature: ()Ljava/lang/String;
  */
 JNIEXPORT jstring JNICALL Java_com_shan_ndkdemo_ndk_NdkTest_hello
-  (JNIEnv *, jclass);
+        (JNIEnv *, jclass);
 
 #ifdef __cplusplus
 }
